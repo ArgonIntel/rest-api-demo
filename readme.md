@@ -1,16 +1,16 @@
 # rest-api-pandas-demo
 
-RESTful API primjer pisan u Python programskom jeziku koristeći Flask i Pandas biblioteke. Aplikacija učitava podatke o država i to prikazuje korisniku kroz REST API koristeći JSON.
+RESTful API example written in Python using Flask and Pandas library. App loads data about particular country and serves it via REST API using JSONkroz REST API koristeći JSON.
 
-## Kako pokrenuti aplikaciju
+## How to run an App
 
-Aplikacija koristi Flask biblioteku za kreiranje RESTful API-a što znači da moramo koristiti `flask` naredbu da bi pokrenuli aplikaciju.
+Application uses Flask framework to create RESTful API. We need to use `flask` instruction to launch an app as follows
 
 ```shell
 flask --app main run
 ```
 
-## URL putanje
+## URL path
 
 `/api`
 
